@@ -1,0 +1,24 @@
+QTags.addButton( 'hr', '横线', "<hr />\n" );
+QTags.addButton( 'ce', '居中', "<center>","</center>" );
+QTags.addButton( 'tpp', 'P标签', "\n<p>","</p>\n" );
+QTags.addButton( 'h2', 'H2标签', "<h2>", "</h2>" ); 
+QTags.addButton( 'h3', 'H3标签', "\n<h3>", "</h3>\n" ); 
+QTags.addButton( 'jkh', '</>', "&lt;", "&gt;" ); 
+QTags.addButton( 'space', '空白占位符', "&nbsp;" ); 
+QTags.addButton( 'dm', '代码高亮', "\n<pre class='prettyprint'>\n\n</pre>\n" ); 
+QTags.addButton( 'btn1', '蓝色按钮', "[btn href='按钮的链接' color='blue']按钮文字[/btn]" ); 
+QTags.addButton( 'btn2', '红色按钮', "[btn href='按钮的链接' color='red']按钮文字[/btn]" ); 
+QTags.addButton( 'btn3', '黄色按钮', "[btn href='按钮的链接' color='yellow']按钮文字[/btn]" ); 
+QTags.addButton( 'btn4', '橙色按钮', "[btn href='按钮的链接' color='orange']按钮文字[/btn]" ); 
+QTags.addButton( 'btn5', '绿色按钮', "[btn href='按钮的链接' color='green']按钮文字[/btn]" ); 
+QTags.addButton( 'btn6', '粉色按钮', "[btn href='按钮的链接' color='pink']按钮文字[/btn]" ); 
+QTags.addButton( 'btn7', '黑色按钮', "[btn href='按钮的链接' color='black']按钮文字[/btn]" ); 
+QTags.addButton( 'btn8', '灰色按钮', "[btn href='按钮的链接' color='grey']按钮文字[/btn]" ); 
+QTags.addButton( 'btn9', '白色按钮', "[btn href='按钮的链接' color='white']按钮文字[/btn]" ); 
+QTags.addButton( 'lb', '自定义颜色条幅', "\n[lb bgcolor='背景色' color='文字颜色' border='边框颜色']条幅文字[/lb]" ); 
+QTags.addButton( 'lbright', '绿色条幅', "\n[lb bgcolor='#1abc9c' color='#127a65']文字内容[/lb]\n" ); 
+QTags.addButton( 'lbwrong', '红色条幅', "\n[lb bgcolor='#f87869' color='#ae0f0f']文字内容[/lb]\n" ); 
+QTags.addButton( 'lbwarning', '黄色条幅', "\n[lb bgcolor='#f0eeaa' color='#c28b2c']文字内容[/lb]\n" ); 
+QTags.addButton( 'lbnote', '灰色条幅', "\n[lb bgcolor='#eee' color='#aaa']文字内容[/lb]\n" ); 
+QTags.addButton( 'pagin', '添加分页', "\n<!--nextpage-->\n" ); 
+//这儿共有四对引号，分别是按钮的ID、显示名、点一下输入内容、再点一下关闭内容（此为空则一次输入全部内容），\n表示换行。

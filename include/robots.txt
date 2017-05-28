@@ -1,0 +1,27 @@
+﻿User-agent: *
+Disallow: /wp-admin
+Disallow: /wp-admin/*
+Disallow: /wp-content
+Disallow: /wp-content/*
+Disallow: /wp-includes
+Disallow: /wp-includes/*
+Disallow: /*/trackback
+Disallow: /feed
+Disallow: /*/feed
+Disallow: /comments/feed
+Disallow: /?s=*
+Disallow: /*/?s=*
+Disallow: /?r=*
+Disallow: /*.gif$
+Disallow: /*.png$
+Disallow: /*.bmp$
+Disallow: /?p=*
+Disallow: /*/comment-page-*
+Disallow: /*?replytocom*
+Disallow: /a/date/
+Disallow: /a/author/
+Disallow: /a/category/
+Disallow: /?p=*&preview=true
+Disallow: /?page_id=*&preview=true
+Disallow: /wp-login.php
+Sitemap:http://www.ixcrap.com/sitemap.xml
